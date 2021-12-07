@@ -4,3 +4,10 @@ disallow: /my-skills
 disallow: /education-experience-1
 disallow: /hobbies
 disallow: /contact
+
+disallow: /*
+disallow: /about-me/*
+disallow: /my-skills/*
+disallow: /education-experience-1/*
+disallow: /hobbies/*
+disallow: /contact/*
