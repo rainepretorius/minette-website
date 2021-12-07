@@ -3739,6 +3739,10 @@ ul.navActions a {
   font-size: inherit;
 }
 
+.global_footer .social-icons .list-inline > li > a .svg-m {
+    background-color: #fff;
+}
+
 .p-m-b-highlight:hover {
   outline: 2px solid #0597F2;
   outline-offset: 5px;
