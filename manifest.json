@@ -1,0 +1,49 @@
+{
+  "name": "Minette vd Heever",
+  "short_name": "Minette vd Heever",
+  "theme_color": "#ba7d91",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "description": "Minette vd Heever",
+  "icons": [
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette.jpg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette1.jpeg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette2.jpeg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette3.jpeg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette4.jpeg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette5.jpeg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
