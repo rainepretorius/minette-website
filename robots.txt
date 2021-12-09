@@ -16,22 +16,22 @@ Allow: /my-skills/microsoft-access
 Allow: /my-skills/notepad-plus-plus/
 Allow: /my-skills/notepad-plus-plus
 
-Allow: /my-skills/education-experience-1/
+Allow: /education-experience-1/
 Allow: /my-skills/education-experience-1
-Allow: /my-skills/education-experience-1/laerskool-fairland/
-Allow: /my-skills/education-experience-1/laerskool-fairland
-Allow: /my-skills/education-experience-1/helpmekaar-kollege/
-Allow: /my-skills/education-experience-1/helpmekaar-kollege
-Allow: /my-skills/education-experience-1/wits-student/
+Allow: /education-experience-1/laerskool-fairland/
+Allow: /education-experience-1/laerskool-fairland
+Allow: /education-experience-1/helpmekaar-kollege/
+Allow: /education-experience-1/helpmekaar-kollege
+Allow: /education-experience-1/wits-student/
 Allow: /my-skills/education-experience-1wits-student
-Allow: /my-skills/education-experience-1/admin-finances/
-Allow: /my-skills/education-experience-1/admin-finances
-Allow: /my-skills/education-experience-1/waiter/
-Allow: /my-skills/education-experience-1/waiter
-Allow: /my-skills/education-experience-1/tutoring/
-Allow: /my-skills/education-experience-1/tutoring
-Allow: /my-skills/education-experience-1/spca-voluntary-work/
-Allow: /my-skills/education-experience-1/spca-voluntary-work
+Allow: /education-experience-1/admin-finances/
+Allow: /education-experience-1/admin-finances
+Allow: /education-experience-1/waiter/
+Allow: /education-experience-1/waiter
+Allow: /education-experience-1/tutoring/
+Allow: /education-experience-1/tutoring
+Allow: /education-experience-1/spca-voluntary-work/
+Allow: /education-experience-1/spca-voluntary-work
 
 Allow: /hobbies/
 Allow: /hobbies
