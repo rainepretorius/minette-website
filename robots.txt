@@ -23,7 +23,7 @@ Allow: /education-experience-1/laerskool-fairland
 Allow: /education-experience-1/helpmekaar-kollege/
 Allow: /education-experience-1/helpmekaar-kollege
 Allow: /education-experience-1/wits-student/
-Allow: /my-skills/education-experience-1wits-student
+Allow: /education-experience-1/wits-student
 Allow: /education-experience-1/admin-finances/
 Allow: /education-experience-1/admin-finances
 Allow: /education-experience-1/waiter/
