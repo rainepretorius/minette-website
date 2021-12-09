@@ -1,24 +1,14 @@
-Sitemap: https://minette.pretoriusse.net/sitemap.xml
+sitemap:
+disallow: /
+disallow: /about-me
+disallow: /my-skills
+disallow: /education-experience-1
+disallow: /hobbies
+disallow: /contact
 
-User-agent: *
-Allow: /
-Allow: /about-me/
-Allow: /my-skills/
-Allow: /my-skills/first-aid/
-Allow: /my-skills/microsoft-word/
-Allow: /my-skills/microsoft-excel/
-Allow: /my-skills/microsoft-access/
-Allow: /my-skills/noetpad-plus-plus/
-Allow: /education-experience-1/
-Allow: /education-experience-1/laerskool-fairland/
-Allow: /education-experience-1/helpmekaar-kollege/
-Allow: /education-experience-1/wits-student/
-Allow: /education-experience-1/admin-finances/
-Allow: /education-experience-1/waiter/
-Allow: /education-experience-1/tutoring/
-Allow: /education-experience-1/spca-voluntary-work/
-Allow: /hobbies/
-Allow: /hobbies/netball/
-Allow: /hobbies/art/
-Allow: /hobbies/voortrekkers/
-Allow: /contact/
+disallow: /*
+disallow: /about-me/*
+disallow: /my-skills/*
+disallow: /education-experience-1/*
+disallow: /hobbies/*
+disallow: /contact/*
