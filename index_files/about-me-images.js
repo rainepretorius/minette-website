@@ -1,4 +1,4 @@
-var photos = ['minette.jpg', 'minette1.jpeg', 'minette2.jpeg', 'minette3.jpeg', 'minette4.jpeg', 'minette5.jpeg'];
+var photos = ['minette1.jpeg', 'minette2.jpeg', 'minette3.jpeg', 'minette4.jpeg', 'minette5.jpeg', 'minette.jpg'];
 var current_index = 0;
 
 function update_photo() {
