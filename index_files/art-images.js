@@ -19,4 +19,4 @@ function update_photo() {
   };
 };
 
-setInterval(update_photo, 4000);
+setInterval(update_photo, 3000);
