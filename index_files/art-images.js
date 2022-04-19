@@ -52,4 +52,4 @@ previous_btn.addEventListener("click", previous_photo);
 next_btn = document.getElementById("next");
 next_btn.addEventListener("click", next_photo);
 
-setInterval(update_photo, 4000);
+setInterval(update_photo, 10000);
