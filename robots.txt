@@ -1,4 +1,5 @@
 Sitemap: https://minette.pretoriusse.net/sitemap.xml
+Sitemap: https://minette.pretoriusse.net/images.xml
 Allow: /
 Allow: /about-me
 Allow: /about-me/
@@ -44,3 +45,6 @@ Allow: /hobbies/voortrekkers
 
 Allow: /contact/
 Allow: /contact
+
+disallow: /offline.html
+disallow: offline.html
