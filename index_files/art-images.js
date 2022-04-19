@@ -46,7 +46,7 @@ function next_photo() {
 };
 
 
-previous_btn = document.getElementById("Anchor");
+previous_btn = document.getElementById("previous");
 previous_btn.addEventListener("click", previous_photo);
 
 next_btn = document.getElementById("next");
