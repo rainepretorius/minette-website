@@ -48,8 +48,10 @@ function next_photo() {
 
 previous_btn = document.getElementById("previous");
 previous_btn.addEventListener("click", previous_photo);
+previous_btn.addEventListener("touchstart", previous_photo);
 
 next_btn = document.getElementById("next");
 next_btn.addEventListener("click", next_photo);
+next_btn.addEventListener("touchstart", next_photo);
 
-setInterval(update_photo, 10000);
+setInterval(update_photo, 6000);
