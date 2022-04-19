@@ -54,4 +54,4 @@ next_btn = document.getElementById("next");
 next_btn.addEventListener("click", next_photo);
 next_btn.addEventListener("touchstart", next_photo);
 
-setInterval(update_photo, 60000);
+setInterval(update_photo, 6000);
