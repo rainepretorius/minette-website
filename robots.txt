@@ -1,6 +1,7 @@
 Sitemap: https://minette.pretoriusse.net/sitemap.xml
 Sitemap: https://minette.pretoriusse.net/images.xml
 Allow: /
+Allow: /*
 Allow: /about-me
 Allow: /about-me/
 
