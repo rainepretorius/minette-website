@@ -1,0 +1,37 @@
+{
+  "name": "Minette van den Heever",
+  "short_name": "Minette vd Heever",
+  "theme_color": "#32bfce",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "description": "I am a dedicated young woman with a positive worldview and much determination when it comes to my work or anything I’m interested in. I aspire to become a trauma surgeon and will keep working hard to achieve my goals.",
+  "icons": [
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette.jpg",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette.jpg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette1.jpeg",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn1.pretoriusse.net/CDN/Images/minette/minette1.jpeg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

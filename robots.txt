@@ -1,0 +1,51 @@
+Sitemap: https://minette.pretoriusse.net/sitemap.xml
+Sitemap: https://minette.pretoriusse.net/images.xml
+Allow: /
+Allow: /*
+Allow: /about-me
+Allow: /about-me/
+
+Allow: /my-skills/
+Allow: /my-skills
+Allow: /my-skills/first-aid/
+Allow: /my-skills/first-aid
+Allow: /my-skills/microsoft-word/
+Allow: /my-skills/microsoft-word
+Allow: /my-skills/microsoft-excel/
+Allow: /my-skills/microsoft-excel
+Allow: /my-skills/microsoft-access/
+Allow: /my-skills/microsoft-access
+Allow: /my-skills/notepad-plus-plus/
+Allow: /my-skills/notepad-plus-plus
+
+Allow: /education-experience-1/
+Allow: /education-experience-1
+Allow: /education-experience-1/laerskool-fairland/
+Allow: /education-experience-1/laerskool-fairland
+Allow: /education-experience-1/helpmekaar-kollege/
+Allow: /education-experience-1/helpmekaar-kollege
+Allow: /education-experience-1/wits-student/
+Allow: /education-experience-1/wits-student
+Allow: /education-experience-1/admin-finances/
+Allow: /education-experience-1/admin-finances
+Allow: /education-experience-1/waiter/
+Allow: /education-experience-1/waiter
+Allow: /education-experience-1/tutoring/
+Allow: /education-experience-1/tutoring
+Allow: /education-experience-1/spca-voluntary-work/
+Allow: /education-experience-1/spca-voluntary-work
+
+Allow: /hobbies/
+Allow: /hobbies
+Allow: /hobbies/art/
+Allow: /hobbies/art
+Allow: /hobbies/netball/
+Allow: /hobbies/netball
+Allow: /hobbies/voortrekkers/
+Allow: /hobbies/voortrekkers
+
+Allow: /contact/
+Allow: /contact
+
+disallow: /offline.html
+disallow: offline.html
