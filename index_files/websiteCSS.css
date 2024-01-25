@@ -4375,6 +4375,12 @@ ul.navActions a {
   -o-background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  #top-section .home-image-bg {
+    background-image: url('https://cdn1.pretoriusse.net/CDN/Images/minette/mobile_background.jpg'); /* Replace with the path to your mobile image */
+  }
+}
+
 #top-section .home-image-bg.patterns {
   background-size: initial !important;
   background-attachment: fixed !important;
