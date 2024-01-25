@@ -1,44 +1,44 @@
 function load_checkmarks(ev) {
     if (localStorage.getItem('laerskool-fairland') == 'true') {
-        var fairland = document.getElementById('laerskool-fairland')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
+        var fairland = document.getElementById('laerskool-fairland');
+        fairland.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check" style="color:white !important;" data-ie11-classes="">&nbsp;</i>';
     }
 
     if (localStorage.getItem('spca-volunteer') == 'true') {
-        var fairland = document.getElementById('spca-volunteer')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
+        var spca = document.getElementById('spca-volunteer')
+        spca.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        spca.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
     }
 
     if (localStorage.getItem('helpmekaar-kollege') == 'true') {
-        var fairland = document.getElementById('helpmekaar-kollege')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
+        var helpies = document.getElementById('helpmekaar-kollege')
+        helpies.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        helpies.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
     }
 
     if (localStorage.getItem('admin-finances') == 'true') {
-        var fairland = document.getElementById('admin-finances')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
+        var admin = document.getElementById('admin-finances')
+        admin.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        admin.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
     }
 
     if (localStorage.getItem('wits-student') == 'true') {
-        var fairland = document.getElementById('wits-student')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
+        var wits = document.getElementById('wits-student')
+        wits.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        wits.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
     }
 
     if (localStorage.getItem('waiter') == 'true') {
-        var fairland = document.getElementById('waiter')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
+        var waiter = document.getElementById('waiter')
+        waiter.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        waiter.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
     }
 
     if (localStorage.getItem('tutoring') == 'true') {
-        var fairland = document.getElementById('tutoring')
-        fairland.classList.add('visited-timeline-block');
-        fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check" data-ie11-classes="">&nbsp;</i>';
+        var tutoring = document.getElementById('tutoring')
+        tutoring.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
+        tutoring.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check" data-ie11-classes="">&nbsp;</i>';
     }
 }
 
