@@ -5,7 +5,7 @@ function load_checkmarks(ev) {
         fairland.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check" style="color:white !important;" data-ie11-classes="">&nbsp;</i>';
     }
 
-    if (localStorage.getItem('spca-volunteer') == 'true') {
+    if (localStorage.getItem('spca-voluntary-work') == 'true') {
         var spca = document.getElementById('spca-volunteer')
         spca.style = "background-color: rgb(189, 92, 125) !important; color: whitesmoke !important;"
         spca.innerHTML = '<i class="svg-m s123-icon-converter timeline-i" data-icon-name="check"  data-ie11-classes="">&nbsp;</i>';
