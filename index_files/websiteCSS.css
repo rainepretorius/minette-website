@@ -3543,10 +3543,10 @@ html .site-dropdown-menu.dropdown-side-open-up {
     left: 0;
     display: flex;
     align-items: center;
-    background-color: #afabaa;
+    background-color: #565755;
     border-width: 0;
     min-height: var(--mainNavMobileHeight);
-    border-bottom: 1px solid #afabaa;
+    border-bottom: 1px solid #565755;
     opacity: 0;
   }
 
