@@ -10,7 +10,7 @@ html, body {
   min-height: 430px !important;
 }
 
-.cd-timeline-img:visited {
+.cd-timeline-img-visited {
   /* Your styles for visited links here */
   /* For example, you can set a different background color */
   background-color: rgb(189, 92, 125) !important; /* Replace with your desired color */
