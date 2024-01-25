@@ -42,4 +42,4 @@ function load_checkmarks(ev) {
     }
 }
 
-document.addEventListener('load', load_checkmarks);
+document.addEventListener('DOMContentLoaded', load_checkmarks);
