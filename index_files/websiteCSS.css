@@ -19,12 +19,8 @@ html, body {
   content: '\2713' !important; /* Unicode character for checkmark */
   color: whitesmoke !important; /* Color for the checkmark, replace with your desired color */
   font-size: 24px !important; /* Adjust the font size as needed */
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
   transform: translate(-50%, -50%) !important;
   border-radius: 50% !important;
-  line-height: 40px !important; /* Adjust the line height to center the checkmark vertically */
   width: 40px !important; /* Set a fixed width for the circle */
   height: 40px !important;
 }
