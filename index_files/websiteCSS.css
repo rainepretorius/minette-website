@@ -2,6 +2,10 @@ html, body {
   font-size: 14px !important;
 }
 
+.contactUs {
+  display: none !important;
+}
+
 h1 {
   font-size: 1.602em;
 }
