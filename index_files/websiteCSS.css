@@ -13,16 +13,27 @@ html, body {
 .cd-timeline-img:visited {
   /* Your styles for visited links here */
   /* For example, you can set a different background color */
-  background-color: rgb(189, 92, 125); /* Replace with your desired color */
+  background-color: rgb(189, 92, 125) !important; /* Replace with your desired color */
 
   /* Add a checkmark using :after pseudo-element */
-  content: '\2713'; /* Unicode character for checkmark */
-  color: whitesmoke; /* Color for the checkmark, replace with your desired color */
-  font-size: 24px; /* Adjust the font size as needed */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  content: '\2713' !important; /* Unicode character for checkmark */
+  color: whitesmoke !important; /* Color for the checkmark, replace with your desired color */
+  font-size: 24px !important; /* Adjust the font size as needed */
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  border-radius: 50% !important;
+  line-height: 40px !important; /* Adjust the line height to center the checkmark vertically */
+  width: 40px !important; /* Set a fixed width for the circle */
+  height: 40px !important;
+}
+
+.cd-timeline-img {
+  /* Your styles for unvisited links here */
+  /* For example, you can set a different background color */
+  background-color: rgb(247, 249, 248) !important; /* Replace with your desired color */
+  border-radius: 50% !important; /* Make it a circle */
 }
 
 h1 {
