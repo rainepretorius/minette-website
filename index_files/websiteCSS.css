@@ -10,21 +10,6 @@ html, body {
   min-height: 430px !important;
 }
 
-.cd-timeline-img-visited {
-  /* Your styles for visited links here */
-  /* For example, you can set a different background color */
-  background-color: rgb(189, 92, 125) !important; /* Replace with your desired color */
-
-  /* Add a checkmark using :after pseudo-element */
-  content: '\2713' !important; /* Unicode character for checkmark */
-  color: whitesmoke !important; /* Color for the checkmark, replace with your desired color */
-  font-size: 24px !important; /* Adjust the font size as needed */
-  transform: translate(-50%, -50%) !important;
-  border-radius: 50% !important;
-  width: 40px !important; /* Set a fixed width for the circle */
-  height: 40px !important;
-}
-
 .cd-timeline-img {
   /* Your styles for unvisited links here */
   /* For example, you can set a different background color */
