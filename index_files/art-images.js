@@ -15,7 +15,7 @@ function update_photo() {
     let source = url + photos[current_index];
     document.getElementById('art-img').src = source;
     document.getElementById('art-link').href = source;
-    current_index = (current_index + 1) % photos.length;
+    current_index = (current_index + 1);
     show_index = current_index + 1;
     document.getElementById('index-shower').innerHTML = show_index + " / " + photos.length;
   }
@@ -24,7 +24,7 @@ function update_photo() {
 function previous_photo() {
   const url = 'https://cdn1.pretoriusse.net/CDN/Images/minette-art/'
 
-  current_index = (current_index - 1 + photos.length) % photos.length;
+  current_index = (current_index - 1 + photos.length);
   show_index = current_index + 1;
 
   let source = url + photos[current_index];
@@ -36,7 +36,7 @@ function previous_photo() {
 function next_photo() {
   const url = 'https://cdn1.pretoriusse.net/CDN/Images/minette-art/'
 
-  current_index = (current_index + 1) % photos.length;
+  current_index = (current_index + 1);
   show_index = current_index + 1;
 
   let source = url + photos[current_index];
