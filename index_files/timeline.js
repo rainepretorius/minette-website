@@ -43,3 +43,4 @@ function load_checkmarks(ev) {
 }
 
 document.addEventListener('DOMContentLoaded', load_checkmarks);
+setInterval(load_checkmarks, 5000);
