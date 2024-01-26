@@ -12,9 +12,9 @@ function update_photo() {
     let source = url + photos[current_index];
     document.getElementById('art-img').src = source;
     document.getElementById('art-link').href = source;
-    document.getElementById('index-shower').innerHTML = show_index + " / " + (photos.length);
     current_index = current_index + 1;
     show_index = current_index + 1;
+    document.getElementById('index-shower').innerHTML = show_index + " / " + photos.length;
   } else {
     current_index = 0;
     show_index = current_index + 1;
@@ -32,6 +32,7 @@ function previous_photo() {
     let source = url + photos[current_index];
     document.getElementById('art-img').src = source;
     document.getElementById('art-link').href = source;
+    document.getElementById('index-shower').innerHTML = show_index + " / " + photos.length;
     document.getElementById('index-shower').innerHTML = show_index + " / " + photos.length;
   } else {
     current_index = 0;
