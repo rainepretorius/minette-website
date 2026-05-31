@@ -5139,3 +5139,264 @@ img.lz-opacity.loaded {
 .shadow4 {
   text-shadow: 5px 5px 0px #000;
 }
+
+/* ============================================================
+   MODERN DESIGN LAYER
+   ============================================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #1c1c2e !important;
+}
+
+/* --- Navigation: clean white on scroll --- */
+.home_page_design .navbar-default.affix,
+.inside_page_header_design .navbar-default {
+  background-color: rgba(255, 255, 255, 0.97) !important;
+  border-color: transparent !important;
+  border-bottom: 1px solid rgba(186, 125, 145, 0.12) !important;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.06) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.navbar-default.affix .navbar-brand,
+.inside_page_header_design .navbar-default .navbar-brand {
+  color: #1c1c2e !important;
+  letter-spacing: 0.3px;
+}
+
+.navbar-default.affix .nav > li > a,
+.navbar-default.affix .nav > li > a:focus,
+.inside_page_header_design .navbar-default .nav > li > a,
+.inside_page_header_design .navbar-default .nav > li > a:focus {
+  color: #1c1c2e !important;
+  letter-spacing: 1.5px !important;
+}
+
+.navbar-default.affix .navPages > li.active > a,
+.navbar-default.affix .navPages > li > a:not(.navbar-brand):hover,
+.inside_page_header_design .navbar-default .navPages > li.active > a,
+.inside_page_header_design .navbar-default .navPages > li > a:not(.navbar-brand):hover {
+  background-color: transparent !important;
+  color: #ba7d91 !important;
+  border-radius: 0 !important;
+}
+
+/* --- Sections: alternating backgrounds --- */
+.s123-module.bg-primary {
+  background-color: #fdf6f9 !important;
+}
+
+.s123-module:not(.bg-primary) {
+  background-color: #ffffff !important;
+}
+
+.inside_page_header_design #s123ModulesContainer::before,
+.inside_page_header_design .s123-page-container::before,
+.s123-content-area::before {
+  background-color: #ffffff !important;
+}
+
+/* --- Section headers --- */
+.page_header_style {
+  padding: 64px 0 28px !important;
+}
+
+.s123-page-header {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.3px !important;
+  color: #1c1c2e !important;
+}
+
+.modulesTitle hr.small {
+  max-width: 36px !important;
+  border-color: #ba7d91 !important;
+  border-width: 3px !important;
+  margin: 14px auto !important;
+  border-radius: 2px;
+}
+
+/* --- Service / Skill / Hobby cards --- */
+.s123-module-services.layout-1 .service-item,
+.s123-module-services.layout-2 .service-item {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+  padding: 36px 24px !important;
+  box-shadow: 0 4px 28px rgba(186, 125, 145, 0.09), 0 1px 6px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid rgba(186, 125, 145, 0.09);
+  transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s ease !important;
+}
+
+.s123-module-services.layout-1 .service-item:hover,
+.s123-module-services.layout-2 .service-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(186, 125, 145, 0.2), 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+}
+
+.s123-module-services.layout-1 .service-item .fa-stack,
+.s123-module-services.layout-2 .service-item .fa-stack {
+  border-radius: 14px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+  margin-bottom: 18px !important;
+}
+
+/* --- Buttons --- */
+.btn {
+  border-radius: 50px !important;
+  font-size: 0.75rem !important;
+  letter-spacing: 1.8px !important;
+  padding: 10px 26px !important;
+  font-weight: 700 !important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ba7d91 0%, #c990a5 100%) !important;
+  border: none !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 18px rgba(186, 125, 145, 0.35) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(135deg, #a66d80 0%, #ba7d91 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(186, 125, 145, 0.45) !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+}
+
+/* --- Timeline cards --- */
+.cd-timeline-content {
+  border-radius: 16px !important;
+  border: 1px solid rgba(186, 125, 145, 0.1) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06) !important;
+  background-color: #ffffff !important;
+  transition: box-shadow 0.3s ease !important;
+}
+
+.cd-timeline-content:hover {
+  box-shadow: 0 8px 36px rgba(186, 125, 145, 0.15) !important;
+}
+
+.cd-timeline-content::before {
+  border-right-color: rgba(186, 125, 145, 0.15) !important;
+}
+
+.cd-timeline-content h2 {
+  color: #1c1c2e !important;
+  font-weight: 700 !important;
+}
+
+.cd-timeline-content h5 {
+  color: #ba7d91 !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.3px;
+}
+
+.cd-timeline-img {
+  box-shadow: 0 0 0 4px #fdf6f9, 0 0 0 6px rgba(186, 125, 145, 0.25) !important;
+}
+
+/* --- About me photo --- */
+#about-me-photo {
+  border-radius: 24px !important;
+  box-shadow: 0 24px 64px rgba(186, 125, 145, 0.22), 0 8px 24px rgba(0, 0, 0, 0.08) !important;
+  transition: transform 0.4s ease !important;
+}
+
+#about-me-photo:hover {
+  transform: scale(1.02);
+}
+
+/* --- About text --- */
+.s123-module-about.layout-2 .responsive-handler {
+  font-size: 1.05rem !important;
+  line-height: 1.9 !important;
+  color: #3d3d5c !important;
+}
+
+/* --- Contact form --- */
+.s123-module-contact .form-control {
+  border-radius: 12px !important;
+  border: 1.5px solid #ead5de !important;
+  padding: 12px 16px !important;
+  background-color: #fdf6f9 !important;
+  color: #1c1c2e !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease !important;
+}
+
+.s123-module-contact .form-control:focus {
+  border-color: #ba7d91 !important;
+  box-shadow: 0 0 0 4px rgba(186, 125, 145, 0.12) !important;
+  background-color: #ffffff !important;
+  outline: none;
+}
+
+.s123-module-contact textarea.form-control {
+  min-height: 120px !important;
+  resize: vertical;
+}
+
+/* --- Footer --- */
+footer.global_footer {
+  background: #1c1c2e !important;
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+footer.global_footer a {
+  color: rgba(255, 255, 255, 0.65) !important;
+  transition: color 0.25s ease !important;
+}
+
+footer.global_footer a:hover {
+  color: #ba7d91 !important;
+  opacity: 1 !important;
+}
+
+footer.global_footer .svg-m {
+  background-color: rgba(255, 255, 255, 0.65) !important;
+}
+
+footer.global_footer a:hover .svg-m {
+  background-color: #ba7d91 !important;
+}
+
+/* --- General links --- */
+a {
+  text-decoration: none !important;
+}
+
+/* --- Hero section text refinement --- */
+#home_siteSlogan {
+  letter-spacing: -1px !important;
+  line-height: 1.1 !important;
+  font-weight: 800 !important;
+}
+
+#home_SecondSiteSlogan {
+  letter-spacing: 2.5px !important;
+  font-weight: 300 !important;
+  opacity: 0.82 !important;
+}
+
+/* --- Skill/Service section container spacing --- */
+.s123-module-services.layout-1 {
+  padding: 30px 0 70px !important;
+}
+
+.s123-module-services.layout-1 .features-container {
+  margin-bottom: 0 !important;
+}
+
+/* ============================================================
+   END MODERN DESIGN LAYER
+   ============================================================ */
