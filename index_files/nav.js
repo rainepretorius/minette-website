@@ -1,4 +1,36 @@
 (function () {
+  // ── JSON-LD structured data for every sub-page ────────
+  var _ldPath = window.location.pathname;
+  var _ldUrl  = 'https://minette.pretoriusse.net' + _ldPath;
+  var _ldLabelMap = {
+    'about-me':'About Me','my-skills':'My Skills',
+    'education-experience-1':'Education & Experience',
+    'hobbies':'Hobbies','contact':'Contact',
+    'first-aid':'First Aid','microsoft-word':'Microsoft Word',
+    'microsoft-excel':'Microsoft Excel','microsoft-access':'Microsoft Access',
+    'notepad-plus-plus':'Notepad++','laerskool-fairland':'Laerskool Fairland',
+    'spca-voluntary-work':'SPCA Voluntary Work','helpmekaar-kollege':'Helpmekaar Kollege',
+    'admin-finances':'Admin / Finances','wits-student':'University Student',
+    'waiter':'Waiter','tutoring':'Tutoring',
+    'netball':'Netball','art':'Art','voortrekkers':'Voortrekkers'
+  };
+  var _crumbs = [{ pos:1, name:'Home', url:'https://minette.pretoriusse.net/' }];
+  var _acc = 'https://minette.pretoriusse.net';
+  _ldPath.replace(/\/$/, '').split('/').filter(Boolean).forEach(function(p, i) {
+    _acc += '/' + p;
+    _crumbs.push({ pos: i+2, name: _ldLabelMap[p]||p, url: _acc+'/' });
+  });
+  var _ld = {
+    '@context':'https://schema.org',
+    '@graph': [
+      { '@type':'BreadcrumbList', 'itemListElement': _crumbs.map(function(c){ return {'@type':'ListItem','position':c.pos,'name':c.name,'item':c.url}; }) },
+      { '@type':'Person','@id':'https://minette.pretoriusse.net/#person','name':'Minette van den Heever','jobTitle':'Education Leader','url':'https://minette.pretoriusse.net/','image':'https://cdn1.pretoriusse.net/CDN/Images/minette.jpg','worksFor':{'@type':'Organization','name':'Genius Premium Tuition','url':'https://www.geniuspremiumtuition.com'},'address':{'@type':'PostalAddress','addressLocality':'Cape Town','addressRegion':'Western Cape','addressCountry':'ZA'},'sameAs':['https://www.instagram.com/_mxnette_/','https://www.instagram.com/_mxnette_art/','https://www.geniuspremiumtuition.com/staff_profiles/minette-van-den-heever'] },
+      { '@type':'WebPage','url':_ldUrl,'name':document.title,'isPartOf':{'@id':'https://minette.pretoriusse.net/#website'},'about':{'@id':'https://minette.pretoriusse.net/#person'},'inLanguage':'en','dateModified':'2025-05-31' }
+    ]
+  };
+  var _s = document.createElement('script'); _s.type='application/ld+json'; _s.text=JSON.stringify(_ld);
+  document.head.appendChild(_s);
+
   // Determine active page label for the eyebrow in page banner
   var path = window.location.pathname.replace(/\/$/, '');
   var segments = path.split('/').filter(Boolean);
